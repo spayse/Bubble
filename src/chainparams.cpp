@@ -49,9 +49,9 @@ public:
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
         pchMessageStart[0] = 0xcd;
-        pchMessageStart[1] = 0x21;
+        pchMessageStart[1] = 0x11;
         pchMessageStart[2] = 0x19;
-        pchMessageStart[3] = 0xed;
+        pchMessageStart[3] = 0xcd;
         nDefaultPort = 28881;
         nRPCPort = 28882;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
@@ -117,8 +117,8 @@ public:
         
         
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000f3aa41b409cdd1da3c99838bd205868d39d1eb26533cc31c696ea95e1e9"));
-        assert(genesis.hashMerkleRoot == uint256("0xc01016241fb4ce889df81f1a25f289dc981808465d9deb11787590521ec299e2"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
         // Add seednodes below //
           vSeeds.push_back(CDNSSeedData("Bubblecoin.com",  "194.135.85.45"));
