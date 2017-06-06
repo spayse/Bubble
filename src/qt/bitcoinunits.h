@@ -19,9 +19,9 @@ public:
      */
     enum Unit
     {
-        C8H,
-        mC8H,
-        uC8H
+        BUB,
+        mBUB,
+        uBUB
     };
 
     //! @name Static API

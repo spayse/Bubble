@@ -44,7 +44,7 @@ void QRCodeDialog::setModel(OptionsModel *model)
     if (model)
         connect(model, SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
 
-    // update the display unit, to not use the default ("C8H")
+    // update the display unit, to not use the default ("BUB")
     updateDisplayUnit();
 }
 
@@ -92,8 +92,8 @@ QString QRCodeDialog::getURI()
     {
         if (ui->lnReqAmount->validate())
         {
-            // even if we allow a non C8H unit input in lnReqAmount, we generate the URI with C8H as unit (as defined in BIP21)
-            ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::C8H, ui->lnReqAmount->value()));
+            // even if we allow a non BUB unit input in lnReqAmount, we generate the URI with BUB as unit (as defined in BIP21)
+            ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::BUB, ui->lnReqAmount->value()));
             paramCount++;
         }
         else
