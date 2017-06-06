@@ -7,23 +7,23 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Hydrocarbon-Qt</string>
+	<string>Bubble-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Hydrocarbon-Qt</string>
+	<string>Bubble-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.Hydrocarbon.Hydrocarbon-Qt</string>
+	<string>co.Bubble.Bubble-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.Hydrocarbon.HydrocarbonPayment</string>
+            <string>co.Bubble.BubblePayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>Hydrocarbon</string>
+              <string>Bubble</string>
             </array>
           </dict>
         </array>

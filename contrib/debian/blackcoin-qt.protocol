@@ -1,6 +1,6 @@
 [Protocol]
-exec=Hydrocarbon-qt '%u'
-protocol=Hydrocarbon
+exec=Bubble-qt '%u'
+protocol=Bubble
 input=none
 output=none
 helper=true

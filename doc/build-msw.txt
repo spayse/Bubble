@@ -7,7 +7,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP
 software written by Thomas Bernard.
 
 
-See readme-qt.rst for instructions on building Hydrocarbon QT, the
+See readme-qt.rst for instructions on building Bubble QT, the
 graphical user interface.
 
 WINDOWS BUILD NOTES
@@ -76,9 +76,9 @@ make -f Makefile.mingw
 mkdir miniupnpc
 cp *.h miniupnpc/
 
-Hydrocarbon
+Bubble
 -------
 DOS prompt:
-cd \Hydrocarbon\src
+cd \Bubble\src
 mingw32-make -f makefile.mingw
-strip Hydrocarbond.exe
+strip Bubbled.exe

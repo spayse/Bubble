@@ -519,7 +519,7 @@ void ThreadStakeMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("Hydrocarbon-miner");
+    RenameThread("Bubble-miner");
 
     CReserveKey reservekey(pwallet);
 
@@ -581,9 +581,9 @@ int64_t nHPSTimerStart = 0;
 
 void static BitcoinMiner(CWallet *pwallet)
 {
-    LogPrintf("HydrocarbonMiner started\n");
+    LogPrintf("BubbleMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("Hydrocarbon-miner");
+    RenameThread("Bubble-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -611,7 +611,7 @@ void static BitcoinMiner(CWallet *pwallet)
 
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        LogPrintf("Running HydrocarbonMiner with %llu transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrintf("Running BubbleMiner with %llu transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         uint256 hashTarget = CBigNum().SetCompact(pblock->nBits).getuint256();
@@ -680,7 +680,7 @@ void static BitcoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        LogPrintf("HydrocarbonMiner terminated\n");
+        LogPrintf("BubbleMiner terminated\n");
         throw;
     }
 }

@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BUB: return QString("Hydrocarbons");
-    case mBUB: return QString("Milli-Hydrocarbons (1 / 1,000)");
-    case uBUB: return QString("Micro-Hydrocarbons (1 / 1,000,000)");
+    case BUB: return QString("Bubbles");
+    case mBUB: return QString("Milli-Bubbles (1 / 1,000)");
+    case uBUB: return QString("Micro-Bubbles (1 / 1,000,000)");
     default: return QString("???");
     }
 }

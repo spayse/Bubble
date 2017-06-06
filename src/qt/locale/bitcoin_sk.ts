@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Hydrocarbon</source>
-        <translation>O Hydrocarbon</translation>
+        <source>About Bubble</source>
+        <translation>O Bubble</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Hydrocarbon&lt;/b&gt; version</source>
-        <translation>Verzia &lt;b&gt;Hydrocarbon&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Bubble&lt;/b&gt; version</source>
+        <translation>Verzia &lt;b&gt;Bubble&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Hydrocarbon developers</source>
+Copyright © 2014 The Bubble developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Hydrocarbon developers</translation>
+Copyright © 2014 The Bubble developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Hydrocarbon addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše Hydrocarbon adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your Bubble addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše Bubble adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Hydrocarbon address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto Hydrocarbon adresu</translation>
+        <source>Sign a message to prove you own a Bubble address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto Bubble adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Hydrocarbon address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou Hydrocarbon adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified Bubble address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou Bubble adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+82"/>
-        <source>Hydrocarbon will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Hydrocarbon sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
+        <source>Bubble will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Bubble sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Hydrocarbon</source>
-        <translation>Zobraziť informácie o Hydrocarbon</translation>
+        <source>Show information about Bubble</source>
+        <translation>Zobraziť informácie o Bubble</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Hydrocarbon address</source>
-        <translation>Poslať mince na Hydrocarbon adresu</translation>
+        <source>Send coins to a Bubble address</source>
+        <translation>Poslať mince na Bubble adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Hydrocarbon</source>
-        <translation>Upraviť možnosti konfigurácie pre Hydrocarbon</translation>
+        <source>Modify configuration options for Bubble</source>
+        <translation>Upraviť možnosti konfigurácie pre Bubble</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>Hydrocarbon</source>
-        <translation>Hydrocarbon</translation>
+        <source>Bubble</source>
+        <translation>Bubble</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -453,8 +453,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Hydrocarbon</source>
-        <translation>&amp;O Hydrocarbon</translation>
+        <source>&amp;About Bubble</source>
+        <translation>&amp;O Bubble</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Hydrocarbon client</source>
-        <translation>Hydrocarbon klient</translation>
+        <source>Bubble client</source>
+        <translation>Bubble klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Hydrocarbon network</source>
-        <translation><numerusform>%n aktívne spojenie s Hydrocarbon sieťov</numerusform><numerusform>%n aktívnych spojení s Hydrocarbon sieťov</numerusform><numerusform>%n aktívnych spojení s Hydrocarbon sieťou</numerusform></translation>
+        <source>%n active connection(s) to Bubble network</source>
+        <translation><numerusform>%n aktívne spojenie s Bubble sieťov</numerusform><numerusform>%n aktívnych spojení s Bubble sieťov</numerusform><numerusform>%n aktívnych spojení s Bubble sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -604,8 +604,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Hydrocarbon address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou Hydrocarbon adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Bubble address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou Bubble adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -727,8 +727,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Hydrocarbon can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. Hydrocarbon už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. Bubble can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. Bubble už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1061,8 +1061,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Hydrocarbon address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou Hydrocarbon adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bubble address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou Bubble adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1080,8 +1080,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Hydrocarbon-Qt</source>
-        <translation>Hydrocarbon-Qt</translation>
+        <source>Bubble-Qt</source>
+        <translation>Bubble-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1153,13 +1153,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Hydrocarbon after logging in to the system.</source>
-        <translation>Automaticky spustiť Hydrocarbon po prihlásení sa do systému.</translation>
+        <source>Automatically start Bubble after logging in to the system.</source>
+        <translation>Automaticky spustiť Bubble po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Hydrocarbon on system login</source>
-        <translation>&amp;Spustiť Hydrocarbon pri prihlásení do systému</translation>
+        <source>&amp;Start Bubble on system login</source>
+        <translation>&amp;Spustiť Bubble pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1168,8 +1168,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Hydrocarbon client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta Hydrocarbon na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the Bubble client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta Bubble na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1198,8 +1198,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the Hydrocarbon network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojiť k sieti Hydrocarbon cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the Bubble network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojiť k sieti Bubble cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1243,8 +1243,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Hydrocarbon.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní Hydrocarbon.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bubble.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní Bubble.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1310,8 +1310,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Hydrocarbon.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní Hydrocarbon.</translation>
+        <source>This setting will take effect after restarting Bubble.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní Bubble.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1329,8 +1329,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Hydrocarbon network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou Hydrocarbon po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bubble network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou Bubble po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1403,8 +1403,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start Hydrocarbon: click-to-pay handler</source>
-        <translation>Hydrocarbon sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start Bubble: click-to-pay handler</source>
+        <translation>Bubble sa nedá spustiť: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1571,8 +1571,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Hydrocarbon-Qt help message to get a list with possible Hydrocarbon command-line options.</source>
-        <translation>Zobraziť Hydrocarbon-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku Hydrocarbon.</translation>
+        <source>Show the Bubble-Qt help message to get a list with possible Bubble command-line options.</source>
+        <translation>Zobraziť Bubble-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku Bubble.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1591,13 +1591,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Hydrocarbon - Debug window</source>
-        <translation>Hydrocarbon - Ladiace okno</translation>
+        <source>Bubble - Debug window</source>
+        <translation>Bubble - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Hydrocarbon Core</source>
-        <translation>Jadro Hydrocarbon</translation>
+        <source>Bubble Core</source>
+        <translation>Jadro Bubble</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1606,8 +1606,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Hydrocarbon debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte Hydrocarbon súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the Bubble debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte Bubble súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1616,8 +1616,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Hydrocarbon RPC console.</source>
-        <translation>Vitajte v konzole Hydrocarbon RPC.</translation>
+        <source>Welcome to the Bubble RPC console.</source>
+        <translation>Vitajte v konzole Bubble RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1797,8 +1797,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a Hydrocarbon address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Hydrocarbon adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Bubble address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Bubble adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1897,8 +1897,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Hydrocarbon address</source>
-        <translation>UPOZORNENIE: Neplatná Hydrocarbon adresa</translation>
+        <source>WARNING: Invalid Bubble address</source>
+        <translation>UPOZORNENIE: Neplatná Bubble adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1971,8 +1971,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Hydrocarbon address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Hydrocarbon adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Bubble address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Bubble adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2032,8 +2032,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Hydrocarbon address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto Hydrocarbon adresu</translation>
+        <source>Sign the message to prove you own this Bubble address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto Bubble adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2064,8 +2064,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Hydrocarbon address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou Hydrocarbon adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Bubble address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou Bubble adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2075,8 +2075,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Hydrocarbon address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Hydrocarbon adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Bubble address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Bubble adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2085,8 +2085,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Hydrocarbon signature</source>
-        <translation>Zadajte Hydrocarbon podpis</translation>
+        <source>Enter Bubble signature</source>
+        <translation>Zadajte Bubble podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2664,8 +2664,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+171"/>
-        <source>Hydrocarbon version</source>
-        <translation>Verzia Hydrocarbon</translation>
+        <source>Bubble version</source>
+        <translation>Verzia Bubble</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2674,8 +2674,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Hydrocarbond</source>
-        <translation>Pošli príkaz na -server alebo Hydrocarbond</translation>
+        <source>Send command to -server or Bubbled</source>
+        <translation>Pošli príkaz na -server alebo Bubbled</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2694,13 +2694,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Hydrocarbon.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: Hydrocarbon.conf)</translation>
+        <source>Specify configuration file (default: Bubble.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: Bubble.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Hydrocarbond.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: Hydrocarbond.pid)</translation>
+        <source>Specify pid file (default: Bubbled.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: Bubbled.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2717,24 +2717,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Hydrocarbonrpc
+rpcuser=Bubblerpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Hydrocarbon Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Bubble Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodne heslo:
-rpcuser=Hydrocarbonrpc
+rpcuser=Bubblerpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Užívateľské meno a heslo NESMIE byť rovnaké.
 Ak súbor neexistuje, vytvorte ho s právami &quot;môže čítať iba vlastník&quot;.
 Odporúča sa tiež nastaviť &quot;alertnotify&quot;, takže budete upozornení na problémy,
-napríklad: alertnotify=echo %%s | mail -s &quot;Hydrocarbon upozornenie&quot; admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s &quot;Bubble upozornenie&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2839,8 +2839,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Hydrocarbon upozornenie&quot; a
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Hydrocarbon will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny Hydrocarbon nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bubble will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny Bubble nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="+130"/>
@@ -3134,8 +3134,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Hydrocarbon upozornenie&quot; a
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. Hydrocarbon is shutting down.</source>
-        <translation>Úvodné kontrolné testy zlyhali. Hydrocarbon sa teraz zatvori.</translation>
+        <source>Initialization sanity check failed. Bubble is shutting down.</source>
+        <translation>Úvodné kontrolné testy zlyhali. Bubble sa teraz zatvori.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3189,13 +3189,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Hydrocarbon upozornenie&quot; a
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Hydrocarbon</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Hydrocarbon</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bubble</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Bubble</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Hydrocarbon to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte Hydrocarbon k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart Bubble to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte Bubble k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3254,8 +3254,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Hydrocarbon upozornenie&quot; a
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. Hydrocarbon is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. Hydrocarbon je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. Bubble is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. Bubble je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3289,8 +3289,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Hydrocarbon upozornenie&quot; a
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Hydrocarbon is probably already running.</source>
-        <translation>Nedá sa zamknúť dátová zložka %s. Hydrocarbon je pravdepodobne už spustený</translation>
+        <source>Cannot obtain a lock on data directory %s. Bubble is probably already running.</source>
+        <translation>Nedá sa zamknúť dátová zložka %s. Bubble je pravdepodobne už spustený</translation>
     </message>
     <message>
         <location line="+4"/>

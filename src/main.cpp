@@ -21,7 +21,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Hydrocarbon cannot be compiled without assertions."
+# error "Bubble cannot be compiled without assertions."
 #endif
 
 //
@@ -75,7 +75,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Hydrocarbon Signed Message:\n";
+const string strMessageMagic = "Bubble Signed Message:\n";
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -2624,7 +2624,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("Hydrocarbon-loadblk");
+    RenameThread("Bubble-loadblk");
 
     CImportingNow imp;
 

@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Hydrocarbon
-Comment=Hydrocarbon P2P Cryptocurrency
-Comment[fr]=Hydrocarbon, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Hydrocarbon, eşten eşe kriptografik sanal para birimi
-Exec=/usr/bin/Hydrocarbon-qt
+Name=Bubble
+Comment=Bubble P2P Cryptocurrency
+Comment[fr]=Bubble, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bubble, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/Bubble-qt
 Terminal=false
 Type=Application
 Icon=/usr/share/pixmaps/bitcoin80.xpm
-MimeType=x-scheme-handler/Hydrocarbon;
+MimeType=x-scheme-handler/Bubble;
 Categories=Office;
