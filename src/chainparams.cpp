@@ -49,9 +49,9 @@ public:
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
         pchMessageStart[0] = 0xcd;
-        pchMessageStart[1] = 0x11;
+        pchMessageStart[1] = 0x21;
         pchMessageStart[2] = 0x19;
-        pchMessageStart[3] = 0xcd;
+        pchMessageStart[3] = 0xdd;
         nDefaultPort = 28881;
         nRPCPort = 28882;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
@@ -64,7 +64,7 @@ public:
         //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
-        const char* pszTimestamp = "Bubble genesis block was created at bitcoin block 461155 with timestamp 1491764259 ";
+        const char* pszTimestamp = "Hydrocarbon genesis block was created at bitcoin block 461155 with timestamp 1491764259 ";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -76,14 +76,14 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1496587650;
+        genesis.nTime    = 1496790644;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 0;
         
        
 				// uncomment to log genesis block info        
       //  start
-        if (false && genesis.GetHash() != hashGenesisBlock)
+        if (true && genesis.GetHash() != hashGenesisBlock)
                        {
                            printf("Searching for genesis block...\n");
                            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -117,12 +117,12 @@ public:
         
         
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000ac4375a9dbf8a157ef6a5445b1ddef2ad4b029974c2fdf704b0ea0ad45e"));
-        assert(genesis.hashMerkleRoot == uint256("0x65f28243f51f0e5071ec7b05c304d0aae8e921382b16721d264f5a0de21048fc"));
+        assert(hashGenesisBlock == uint256("0x00000f3aa41b409cdd1da3c99838bd205868d39d1eb26533cc31c696ea95e1e9"));
+        assert(genesis.hashMerkleRoot == uint256("0xc01016241fb4ce889df81f1a25f289dc981808465d9deb11787590521ec299e2"));
 
         // Add seednodes below //
-          vSeeds.push_back(CDNSSeedData("Bubblecoin.com",  "194.135.85.45"));
-          vSeeds.push_back(CDNSSeedData("Bubblecoin.com",  "194.135.84.132"));
+          vSeeds.push_back(CDNSSeedData("Hydrocarboncoin.com",  "194.135.85.45"));
+          vSeeds.push_back(CDNSSeedData("Hydrocarboncoin.com",  "194.135.84.132"));
          
 
 
@@ -242,7 +242,7 @@ public:
         nDefaultPort = 228881;
         strDataDir = "regtest";
 
-        if (false && genesis.GetHash() != hashGenesisBlock)
+        if (true && genesis.GetHash() != hashGenesisBlock)
                        {
                            printf("Searching for genesis block...\n");
                            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
