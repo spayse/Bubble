@@ -117,12 +117,12 @@ public:
         
         
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000f3aa41b409cdd1da3c99838bd205868d39d1eb26533cc31c696ea95e1e9"));
-        assert(genesis.hashMerkleRoot == uint256("0xc01016241fb4ce889df81f1a25f289dc981808465d9deb11787590521ec299e2"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
         // Add seednodes below //
-          vSeeds.push_back(CDNSSeedData("Hydrocarboncoin.com",  "194.135.85.45"));
-          vSeeds.push_back(CDNSSeedData("Hydrocarboncoin.com",  "194.135.84.132"));
+          vSeeds.push_back(CDNSSeedData("Bubble.com",  "194.135.85.45"));
+          vSeeds.push_back(CDNSSeedData("Bubble.com",  "194.135.84.132"));
          
 
 
@@ -205,7 +205,7 @@ public:
                        }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00003a215c5c76d0840947ff972888b9c8521c6d3ba88453000eed95c0bbf683"));
+        assert(hashGenesisBlock == uint256("0x"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -273,7 +273,7 @@ public:
                        }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x6258d5b30e06b2e241e248ec79de68882178923747ae423764820889bd52ade0"));
+        assert(hashGenesisBlock == uint256("0x"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
