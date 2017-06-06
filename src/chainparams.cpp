@@ -121,8 +121,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x"));
 
         // Add seednodes below //
-          vSeeds.push_back(CDNSSeedData("Bubble.com",  "194.135.85.45"));
-          vSeeds.push_back(CDNSSeedData("Bubble.com",  "194.135.84.132"));
+          vSeeds.push_back(CDNSSeedData("Bubble.co.in",  "194.135.85.45"));
+          vSeeds.push_back(CDNSSeedData("Bubble.co.in",  "194.135.84.132"));
          
 
 
