@@ -2747,8 +2747,8 @@ alertnotify=echo %%s | mail -s &quot;Bubble Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 15712 or testnet: 25714)</source>
-        <translation>监听&lt;port&gt;端口的连接 (默认: 15712 测试网: 25714)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 15716 or testnet: 25714)</source>
+        <translation>监听&lt;port&gt;端口的连接 (默认: 15716 测试网: 25714)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2797,8 +2797,8 @@ alertnotify=echo %%s | mail -s &quot;Bubble Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+62"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15713 or testnet: 25715)</source>
-        <translation>监听 &lt;port&gt; 端口的JSON-RPC连接 (默认: 15713 测试网: 25715)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15719 or testnet: 25715)</source>
+        <translation>监听 &lt;port&gt; 端口的JSON-RPC连接 (默认: 15719 测试网: 25715)</translation>
     </message>
     <message>
         <location line="-16"/>

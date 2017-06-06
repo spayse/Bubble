@@ -117,8 +117,8 @@ public:
         
         
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x0"));
+        assert(genesis.hashMerkleRoot == uint256("0x0"));
 
         // Add seednodes below //
           vSeeds.push_back(CDNSSeedData("Bubblecoin.com",  "194.135.85.45"));
