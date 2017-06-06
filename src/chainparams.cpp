@@ -78,7 +78,7 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1496587650;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 1006085;
+        genesis.nNonce   = 0;
         
        
 				// uncomment to log genesis block info        
@@ -117,8 +117,8 @@ public:
         
         
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0"));
-        assert(genesis.hashMerkleRoot == uint256("0x0"));
+        assert(hashGenesisBlock == uint256("0x00000ac4375a9dbf8a157ef6a5445b1ddef2ad4b029974c2fdf704b0ea0ad45e"));
+        assert(genesis.hashMerkleRoot == uint256("0x65f28243f51f0e5071ec7b05c304d0aae8e921382b16721d264f5a0de21048fc"));
 
         // Add seednodes below //
           vSeeds.push_back(CDNSSeedData("Bubblecoin.com",  "194.135.85.45"));
