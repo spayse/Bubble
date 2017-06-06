@@ -64,7 +64,7 @@ public:
         //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
-        const char* pszTimestamp = "Hydrocarbon genesis block was created at bitcoin block 461155 with timestamp 1491764259 ";
+        const char* pszTimestamp = "Bubble genesis block was created at bitcoin block 461155 with timestamp 1491764259 ";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -122,7 +122,7 @@ public:
 
         // Add seednodes below //
           vSeeds.push_back(CDNSSeedData("Bubble.co.in",  "194.135.85.45"));
-          vSeeds.push_back(CDNSSeedData("Bubble.co.in",  "194.135.84.132"));
+          
          
 
 
