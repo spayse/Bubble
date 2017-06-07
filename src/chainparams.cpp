@@ -78,12 +78,12 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1496790644;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 0;
+        genesis.nNonce   = 299102;
         
        
 				// uncomment to log genesis block info        
       //  start
-        if (true && genesis.GetHash() != hashGenesisBlock)
+        if (false && genesis.GetHash() != hashGenesisBlock)
                        {
                            printf("Searching for genesis block...\n");
                            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -117,8 +117,8 @@ public:
         
         
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x000002adb9be617747c9473829522ff84bd1ce5ed6ee943553a42ca64e9c2928"));
+        assert(genesis.hashMerkleRoot == uint256("0x65f28243f51f0e5071ec7b05c304d0aae8e921382b16721d264f5a0de21048fc"));
 
         // Add seednodes below //
           vSeeds.push_back(CDNSSeedData("Bubble.co.in",  "194.135.85.45"));
@@ -205,7 +205,7 @@ public:
                        }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x000002adb9be617747c9473829522ff84bd1ce5ed6ee943553a42ca64e9c2928"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -273,7 +273,7 @@ public:
                        }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x000002adb9be617747c9473829522ff84bd1ce5ed6ee943553a42ca64e9c2928"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
