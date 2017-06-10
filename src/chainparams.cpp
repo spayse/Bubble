@@ -52,8 +52,8 @@ public:
         pchMessageStart[1] = 0x21;
         pchMessageStart[2] = 0x19;
         pchMessageStart[3] = 0xdd;
-        nDefaultPort = 28881;
-        nRPCPort = 28882;
+        nDefaultPort = 15716;
+        nRPCPort = 15719;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -242,7 +242,7 @@ public:
         nDefaultPort = 228881;
         strDataDir = "regtest";
 
-        if (true && genesis.GetHash() != hashGenesisBlock)
+        if (false && genesis.GetHash() != hashGenesisBlock)
                        {
                            printf("Searching for genesis block...\n");
                            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
