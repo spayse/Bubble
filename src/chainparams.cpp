@@ -7,6 +7,8 @@
 
 #include "chainparams.h"
 #include "main.h"
+#include "util.h"
+
 #include <boost/assign/list_of.hpp>
 
 using namespace boost::assign;
